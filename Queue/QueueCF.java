@@ -1,4 +1,5 @@
-import java.util.*;
+import java.util.LinkedList;
+import java.util.Queue;
 
 public class QueueCF {
     public static void main(String[] args) {
