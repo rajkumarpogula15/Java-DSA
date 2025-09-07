@@ -1,7 +1,5 @@
-package Deque;
 import java.util.*;
 
-import LinkedList;
 public class DoubleEndedQueue {
     public static void main(String[] args) {
         Deque<Integer> deque = new LinkedList<>();
