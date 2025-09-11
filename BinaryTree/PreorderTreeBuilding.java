@@ -1,7 +1,7 @@
 import java.util.LinkedList;
 import java.util.List;
 
-public class PreorderTree {
+public class PreorderTreeBuilding {
     // Definition for a binary tree node.
     public static class TreeNode {
         int val;
