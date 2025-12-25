@@ -1,33 +1,131 @@
-```markdown
-1.  **Summary**
-    The "Java-DSA" project is a comprehensive educational repository dedicated to implementing various Data Structures and Algorithms using Java. It systematically covers fundamental concepts ranging from array manipulations, linked lists, stacks, queues, and binary trees, to essential algorithmic paradigms like recursion, backtracking, and greedy approaches. Additionally, the project includes a dedicated section for demonstrating core Object-Oriented Programming (OOPs) principles in Java. It serves as a practical learning resource, providing runnable code examples for common competitive programming problems and foundational computer science topics.
+# Java-DSA
 
-2.  **Key Features**
-    *   **Extensive DSA Coverage:** Implementations of major data structures (Arrays, ArrayLists, Linked Lists, Stacks, Queues, Binary Trees) and algorithmic techniques (Sorting, Searching, Recursion, Backtracking, Greedy Algorithms, Bit Manipulation).
-    *   **OOPs Demonstrations:** A dedicated module showcasing core Java OOPs concepts like Abstraction, Encapsulation, Inheritance, Polymorphism, Interfaces, and Constructors.
-    *   **Problem-Solving Examples:** Solutions to numerous classic algorithmic problems, including "Most Water," "Trapping Rain Water," "N-Queens," "Sudoku Solver," "Fractional Knapsack," and various tree traversals and manipulations.
-    *   **Clear Organization:** Code is structured into logical directories based on data structures and algorithm categories, enhancing navigability and learning.
+[![Repository Owner](https://img.shields.io/badge/Owner-Anuj--Kumar--Sharma-blue.svg)](https://github.com/Anuj-Kumar-Sharma)
+[![Language](https://img.shields.io/badge/Language-Java-orange.svg)](https://www.java.com/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Status](https://img.shields.io/badge/Contributions-Welcome-brightgreen.svg)](CONTRIBUTING.md)
 
-3.  **Tech Stack**
-    *   **Programming Language:** Java
-    *   **Libraries/Frameworks:** Primarily utilizes the standard Java Development Kit (JDK) and its built-in Collections Framework (e.g., `java.util.ArrayList`, `java.util.LinkedList`, `java.util.Stack`, `java.util.Queue`, `java.util.Deque`).
-    *   **Build System:** Not explicitly defined; likely relies on manual compilation via `javac` and execution via `java`, or an IDE's internal build process.
+## 🌟 Overview
 
-4.  **Skills Demonstrated**
-    *   **Proficiency in Java:** Strong command of Java syntax, object-oriented programming principles, and effective use of the Java Standard Library.
-    *   **Core DSA Knowledge:** In-depth understanding and practical implementation skills across a wide array of data structures and algorithms.
-    *   **Algorithmic Problem-Solving:** Ability to design, implement, and debug solutions for common and complex algorithmic challenges.
-    *   **Code Organization & Structure:** Capability to categorize and manage a codebase logically, reflecting good project structuring habits for educational content.
-    *   **Basic Software Development:** Demonstrates the ability to create standalone, runnable programs for specific computational tasks.
+This repository, **Java-DSA**, serves as a comprehensive, structured collection of Data Structures and Algorithms (DSA) implementations written purely in **Java**. It is meticulously organized to facilitate effective learning, practice, and review of fundamental and advanced computer science concepts using a robust, industry-standard programming language.
 
-5.  **Suggested Improvements**
-    *   **Comprehensive README:** Develop a detailed `README.md` file that includes a project description, setup instructions, how to run individual examples, educational goals, and links to relevant DSA resources.
-    *   **Unit Testing:** Implement unit tests (e.g., using JUnit) for each algorithm and data structure to ensure correctness, validate edge cases, and facilitate future refactoring.
-    *   **Javadoc/Code Comments:** Add extensive Javadoc comments for all classes and methods, explaining their purpose, parameters, return values, and time/space complexity to improve code clarity for learners.
-    *   **Generics for Data Structures:** Refactor custom data structure implementations (like `LinkedList`, `Stack`, `Queue`) to use Java Generics, making them type-safe and more broadly reusable.
-    *   **Consistent Input/Output Handling:** Standardize the approach for handling input and output across different examples to make them easier to run and understand.
-    *   **Introduce a Build System:** Integrate a build tool such as Maven or Gradle to simplify project management, dependency resolution (if needed), and automate compilation and testing.
-    *   **Explore Advanced Topics:** Consider adding implementations for more complex data structures (e.g., Heaps, Tries, Graphs) and algorithms (e.g., Dynamic Programming, Graph Algorithms like Dijkstra's, BFS/DFS on graphs).
-    *   **Refactor for Reusability:** Identify and refactor common utility methods or classes to avoid code duplication and promote reusability across different DSA topics.
-    *   **Standardize Naming Conventions:** Review and ensure consistent Java naming conventions throughout the entire project, particularly for file names and method names, making the codebase more professional.
+This project is ideal for developers preparing for technical interviews, students bolstering their theoretical knowledge, or engineers looking for clean, idiomatic Java implementations of core algorithms.
+
+## 📂 Repository Structure
+
+The structure is organized primarily by topic area, making navigation intuitive. Below is a summary of the main directories and key files:
+
 ```
+Java-DSA/
+├── 📄 HashingBasics.java              // Standalone hashing example
+├── 📁 arrays1/
+├── 📁 arrays2/
+├── 📁 arrays3/
+├── 📁 arrays4/
+├── 📁 backtracking/
+├── 📁 binarySearch1/
+├── 📁 binarySearchBasics/
+├── 📁 binarySearchProblems1/
+├── 📁 binarySearchProblems2/
+├── 📁 binarySearchTree1/
+├── 📁 binarySearchTree2/
+├── 📁 binaryTree2/
+├── 📁 binaryTree3/
+├── 📁 binaryTreeBasics/
+├── 📁 bitManipulation1/
+├── 📁 bitManipulation2/
+├── 📁 collectionFramework/          // Focus on built-in Java collections
+├── 📁 disjointSet/
+├── 📁 doubtSession2/
+├── 📁 doubtsRecursion/
+├── 📁 dp1/ ... 📁 dp5/                // Dynamic Programming modules
+├── 📁 graphs3/
+├── 📁 graphs4/
+├── 📁 graphsDoubts1/
+├── 📁 greedy1/
+├── 📁 greedy2/
+├── 📁 grpah1/
+├── 📁 hashing2/
+├── 📁 hashingBasics/
+├── 📁 heaps1/
+├── 📁 internalWorkingOfHashMap/       // Deep dive into HashMap internals
+├── 📁 javaBasics/
+├── 📁 javaBasics2/
+├── 📁 javaOOPS/
+├── 📁 javaOOPS2/
+├── 📁 linkedListBasics/
+├── 📁 linkedListDoubts/
+├── 📁 linkedListProblems1/
+├── 📁 linkedListProblems2/
+├── 📁 mathematics2/
+├── 📁 maths1/
+├── 📁 package1/
+├── 📁 package2/
+├── 📁 priorityQueue1/
+├── 📁 priorityQueue2/
+├── 📁 priorityQueueDoubts/
+├── 📁 queueBasics/
+├── 📁 queueDoubts/
+├── 📁 queueProblems1/
+├── 📁 recursion1/
+├── 📁 recursion2/
+├── 📁 sorting1/
+├── 📁 sorting2/
+├── 📁 stackBasics/
+├── 📁 stackDoubts/
+├── 📁 stackProblems1/
+├── 📁 stackProblems2/
+├── 📁 strings1/
+├── 📁 strings2/
+└── 📁 trie/
+```
+
+## 🛠️ Technologies Used
+
+*   **Language:** Java (Focusing on modern Java standards where applicable)
+*   **Core Concepts:** Data Structures, Algorithms, Time/Space Complexity Analysis.
+
+## 🚀 Getting Started
+
+To clone and start exploring this repository:
+
+```bash
+git clone https://github.com/Anuj-Kumar-Sharma/Java-DSA.git
+cd Java-DSA
+```
+
+### Running Code Examples
+
+Since this repository contains various independent Java files and packages:
+
+1.  Navigate to the specific folder (e.g., `cd sorting1`).
+2.  Compile the desired `.java` file:
+    ```bash
+    javac FileName.java
+    ```
+3.  Run the compiled class (assuming a `main` method exists):
+    ```bash
+    java FileName
+    ```
+
+## 💡 Key Areas of Focus
+
+This collection emphasizes practical implementation alongside theoretical understanding:
+
+*   **Core Structures:** Arrays, Linked Lists, Stacks, Queues, Heaps, Trees (BST, Binary Tree), Graphs.
+*   **Advanced Topics:** Dynamic Programming (DP), Greedy Algorithms, Hashing (including internal HashMap workings), Trie structures, Bit Manipulation.
+*   **Java Specifics:** Dedicated modules for leveraging the Java Collections Framework (`collectionFramework`) and object-oriented principles (`javaOOPS`).
+
+## 🤝 Contributing
+
+Contributions are highly welcome! Whether it's optimizing an existing algorithm, adding solutions to new problem sets, or improving documentation, your input helps enhance this resource for the community.
+
+Please refer to the [`CONTRIBUTING.md`](CONTRIBUTING.md) file for detailed guidelines on submitting pull requests.
+
+## 📄 License
+
+This project is licensed under the **MIT License** - see the [`LICENSE`](LICENSE) file for details.
+
+---
+**Author:** Anuj Kumar Sharma
+*Disclaimer: This repository is a personal project for practice and reference.*
